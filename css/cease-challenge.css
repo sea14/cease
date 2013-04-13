@@ -18,15 +18,24 @@
 	max-height: 600px;
 	box-shadow: 3px 3px 10px #000000, -3px -3px 10px #000000;
 }
-.reveal-modal h2 {
-	color:#455d78;
-	font-family: 'Droid Serif', Georgia, Times New Roman, serif;	
-}
+
 /*----------------------------
 //Modal content 
 //---------------------------*/
+
+iframe {
+	height:100%;
+	width:100%;
+	max-height: 500px;
+height: 700px;
+}
+iframe body {
+	background-color:#f2f2f2;
+}
+.challengeModal-iframe-body {
+	background-color:#f2f2f2;
+}
 #challengeModal1 {
-	
 }
 #challengeModal1 > #challengeModal-text{
 	display:inline;
@@ -36,6 +45,8 @@
 	display:inline;
 	vertical-align:top;
 	padding-right:5%;
+	color:#455d78;
+	font-family: 'Droid Serif', Georgia, Times New Roman, serif;
 }
 #challengeModal1 > #challengeModal-text > #challengeModal-line-vertical{
 	display:inline;
