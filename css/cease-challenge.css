@@ -120,8 +120,16 @@ iframe body {
 #challengeModal2 > #challengeModal-text > form {
 	padding: 2% 0 2% 0;
 }
+#challengeModal2 label.inline {
+	font-weight:800;	
+	margin-right:10px;
+}
 #challengeModal2 .challengeModal-input {
 	float:left;	
+}
+#challengeModal2 .challengeModal-input input {
+	box-shadow: 1px 1px 3px #444, -1px -1px 3px #444;
+	border-radius: 4px;
 }
 #challengeModal2 > #challengeModal-next {
 	float:right;

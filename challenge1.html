@@ -51,7 +51,7 @@
                     <div class="small-10">
                       <div class="row">
                         <div class="small-3 columns">
-                          <label for="right-label" class="right inline">Name</label>
+                          <label for="right-label" class="right inline">Name:</label>
                         </div>
                         <div class="small-9 columns challengeModal-input">
                           <input type="text" id="right-label" placeholder="Your name">
@@ -59,7 +59,7 @@
                       </div>
                       <div class="row">
                         <div class="small-3 columns">
-                          <label for="right-label" class="right inline">Age</label>
+                          <label for="right-label" class="right inline">Age:</label>
                         </div>
                         <div class="small-5 columns challengeModal-input">
                           <input type="text" id="right-label" placeholder="Your age">
@@ -80,8 +80,8 @@
   <script>
   $(document).ready(function(){
 	  $('#challengeModal-begin-link').click(function(){
-		  $("#challengeModal1").slideToggle("slow");
-		  $("#challengeModal2").slideToggle("slow");
+		  $("#challengeModal1").fadeOut("slow");
+		  $("#challengeModal2").fadeIn("slow");
 	  });
   });
   </script>
