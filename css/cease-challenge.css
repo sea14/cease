@@ -26,8 +26,8 @@
 iframe {
 	height:100%;
 	width:100%;
-	max-height: 500px;
-height: 700px;
+	max-height: 550px;
+	height:550px;
 }
 iframe body {
 	background-color:#f2f2f2;
@@ -35,6 +35,7 @@ iframe body {
 .challengeModal-iframe-body {
 	background-color:#f2f2f2;
 }
+/*challengeModal1-------------------*/
 #challengeModal1 {
 }
 #challengeModal1 > #challengeModal-text{
@@ -46,12 +47,11 @@ iframe body {
 	vertical-align:top;
 	padding-right:5%;
 	color:#455d78;
-	font-family: 'Droid Serif', Georgia, Times New Roman, serif;
+	font-family: 'Alike', Georgia, Times New Roman, serif;
 }
 #challengeModal1 > #challengeModal-text > #challengeModal-line-vertical{
 	display:inline;
 }
-
 #challengeModal1 > #challengeModal-text > p {
 	display: inline;
 	vertical-align: top;
@@ -61,10 +61,9 @@ iframe body {
 	max-width: 70%;
 	float: right;
 }
-
 #challengeModal1 > #challengeModal-call {
 	max-width:214px;
-	max-height:73px;	
+	max-height:100px;	
 	float:right;
 	margin-top:2em;
 }
@@ -78,6 +77,72 @@ iframe body {
 	bottom: 50px;
 	left: 40px;
 }
+#challengeModal1 > #challengeModal-call > #challengeModal-skip {
+	float:right;
+	font-size:.8em;
+}
+#challengeModal1 > #challengeModal-call > #challengeModal-skip > a{
+	text-decoration: underline;
+	position: relative;
+	bottom: 25px;
+	color:#455d78;
+}
 #challengeModal1 > #challengeModal-border {
 	margin-top:3em;	
+}
+/*challengeModal2-------------------
+#challengeModal2 > #challengeModal-logo {
+	width: 90%;
+	padding-left: 10%;
+}*/
+#challengeModal2 > #challengeModal-logo > h2 {
+	font-size: 2em;
+	display: inline;
+	color: #455d78;
+	font-family: 'Alike', Georgia, Times New Roman, serif;
+	position: absolute;
+	top: -2%;
+	left: 17%;
+}
+#challengeModal2 > #challengeModal-logo > img {
+	width:  80%;
+	margin-left: 10%;
+}
+
+#challengeModal2 > #challengeModal-text {
+	max-width: 80%;
+	padding-left:20%;
+	margin: 3% 0 3% 0;
+}
+#challengeModal2 > #challengeModal-text > p {
+	margin: 5% 0 5% 0;
+}
+#challengeModal2 > #challengeModal-text > form {
+	padding: 2% 0 2% 0;
+}
+#challengeModal2 label.inline {
+	font-weight:800;	
+	margin-right:10px;
+}
+#challengeModal2 .challengeModal-input {
+	float:left;	
+}
+#challengeModal2 .challengeModal-input input {
+	box-shadow: 1px 1px 3px #444, -1px -1px 3px #444;
+	border-radius: 4px;
+}
+#challengeModal2 > #challengeModal-next {
+	float:right;
+}
+#challengeModal2 > #challengeModal-next > a > p {
+	position:relative;
+	top:-50px;
+	text-align:center;
+	color:#fff;
+}
+#challengeModal2 > #challengeModal-skip > a{
+	text-decoration: underline;
+	position: absolute;
+	bottom: -90px;
+	color:#455d78;
 }
