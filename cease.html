@@ -84,7 +84,7 @@
 	</div>
     
     <div id="challengeModal" class="reveal-modal xlarge">
-    	<iframe seamless="seamless" src="challenge1.html" name="challenge1"></iframe>
+    	<iframe seamless src="challenge2.html" name="challenge1"></iframe>
     </div>
 
   <script>
@@ -133,7 +133,8 @@
 		  $('#challengeModal').foundation('reveal', {
 			  animation: 'fade',
 			  animationSpeed: 400,
-			  closeOnBackgroundClick: false
+			  closeOnBackgroundClick: false,
+			  dismissModalClass: 'challengeModal-skip-link'
 			});
 		}
 		 setTimeout(function(){
