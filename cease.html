@@ -84,7 +84,8 @@
 	</div>
     
     <div id="challengeModal" class="reveal-modal xlarge">
-    	<iframe seamless scrolling="no" src="challenge1.html" name="challenge1"></iframe>
+    	<!--<iframe seamless scrolling="no" src="challenge1.html" name="challenge1"></iframe>-->
+        <iframe seamless scrolling="no" src="challenge2.html" name="challenge2"></iframe>
     </div>
 
   <script>
@@ -128,7 +129,9 @@
   
   <script>
     $(document).foundation();
-	$(document).ready(function(){
+  </script>
+  <script>
+  		$(document).ready(function(){
 		{
 		  $('#challengeModal').foundation('reveal', {
 			  animation: 'fade',
@@ -141,7 +144,6 @@
 			  $("#challengeModal").foundation('reveal', 'open');
 			}, 1000);
 	});
-
   </script>
 </body>
 </html>

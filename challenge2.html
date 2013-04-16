@@ -22,7 +22,92 @@
 </head>
 
 <body class="challengeModal-iframe-body">
-
-		
+	<div id="challengeModal3">
+    		<div class="row">
+            	<div class="twelve columns">
+                    <div id="challengeModal-logo">
+                    	<h2>cease.</h2>
+                        <img src="img/heartbeat-border-top.png"  class="hide-for-small" alt="border"/>
+                    </div>
+                 </div>
+            </div>
+        	<div id="challengeModal-text">
+                <p>[Years] years from now, you are diagnosed with [disease]. You 
+                    have [amount] in your life savings, and will receive support
+                    from Medicare.  You have your will in order.</p>
+                    <p>[Disease background info] Lorem ipsum 
+                    dolor sit amet, consectetur adipisicing 
+                    elit, sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua. Ut 
+                    enim ad minim veniam, quis nostrud 
+                    exercitation ullamco laboris nisi ut aliquip 
+                    ex ea commodo consequat.</p>
+            </div>
+            <div id="challengeModal-next">
+                <a id="challengeModal-next-link1" href="#"><img src="img/button-small-blue-dark.png" alt="button"/>
+                <p><strong>Next ></strong></p></a>
+            </div>
+            <p id="challengeModal-skip"><a class="challengeModal-skip-link">Skip to the main site.</a></p>
+    </div>
+    <!--end challengeModal3-->
+    <div id="challengeModal4" style="display:none;">
+    		<div class="row">
+            	<div class="twelve columns">
+                    <div id="challengeModal-logo">
+                    	<h2>cease.</h2>
+                        <img src="img/heartbeat-border-top.png"  class="hide-for-small" alt="border"/>
+                    </div>
+                 </div>
+            </div>
+        	<div id="challengeModal-text">
+                <div id="treatment-option1">
+                	<p>[Treatment options info] Lorem 
+                    ipsum dolor sit amet, 
+                    consectetur adipisicing elit, 
+                    sed do eiusmod tempor 
+                    incididunt ut labore et 
+                    dolore magna aliqua. 
+                    </p>
+                </div>
+                <div id="treatment-option2">
+                	<p>[Treatment options info] Lorem 
+                        ipsum dolor sit amet, 
+                        consectetur adipisicing elit, 
+                        sed do eiusmod tempor 
+                        incididunt ut labore et 
+                        dolore magna aliqua. 
+                        </p>
+                </div>
+                <form class="custom">
+                  <label for="radio1">
+                    <input name="radio1" type="radio" id="radio1" style="display:none;">
+                    <span class="custom radio"></span> Radio Button 1
+                  </label>
+                  <label for="radio1">
+                    <input name="radio1" type="radio" id="radio1" style="display:none;">
+                    <span class="custom radio"></span> Radio Button 1
+                  </label>
+                </form>
+            </div>
+            <div id="challengeModal-next">
+                <a href="#"><img src="img/button-small-blue-dark.png" alt="button"/>
+                <p><strong>Next ></strong></p></a>
+            </div>
+            <p id="challengeModal-skip"><a class="challengeModal-skip-link">Skip to the main site.</a></p>
+    </div>
+    <!--end challengeModal4-->
+    <div id="challengeModal5" style="display:none;">
+    
+    </div>
+    <!--end challengeModal5-->
 </body>
+<script>
+  $(document).ready(function(){
+	  $('#challengeModal-next-link1').click(function(){
+		  $("#challengeModal3").fadeOut("slow");
+		  $("#challengeModal4").fadeIn("slow");
+	  });
+  });
+</script>
+
 </html>

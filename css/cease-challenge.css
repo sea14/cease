@@ -89,22 +89,20 @@ iframe body {
 #challengeModal1 #challengeModal-border {
 	margin-top:3em;	
 }
-/*challengeModal2-------------------
-#challengeModal2 > #challengeModal-logo {
+/*challengeModal2-------------------*/
+#challengeModal2 #challengeModal-logo {
 	width: 90%;
 	padding-left: 10%;
-}*/
+}
 #challengeModal2 #challengeModal-logo>h2 {
 	font-size: 2em;
 	display: inline;
 	color: #455d78;
 	font-family: 'Alike', Georgia, Times New Roman, serif;
 	position:relative;
-	left:17%;
+	left:11%;
 }
 #challengeModal2 #challengeModal-logo>img {
-	width:  80%;
-	margin-left: 10%;
 	position:relative;
 	top:-30px;
 }
@@ -141,6 +139,100 @@ iframe body {
 	color:#fff;
 }
 #challengeModal2 #challengeModal-skip>a{
+	text-decoration: underline;
+	position: absolute;
+	bottom: -90px;
+	color:#455d78;
+}
+/*challengeModal3-------------------*/
+#challengeModal3 #challengeModal-logo {
+	width: 90%;
+	padding-left: 10%;
+}
+#challengeModal3 #challengeModal-logo>h2 {
+	font-size: 2em;
+	display: inline;
+	color: #455d78;
+	font-family: 'Alike', Georgia, Times New Roman, serif;
+	position:relative;
+	left:11%;
+}
+#challengeModal3 #challengeModal-logo>img {
+	position:relative;
+	top:-30px;
+}
+
+#challengeModal3 #challengeModal-text {
+	max-width: 80%;
+	padding-left:20%;
+	margin: 3% 0 3% 0;
+}
+#challengeModal3 #challengeModal-text>p {
+	margin: 5% 0 5% 0;
+}
+#challengeModal3 #challengeModal-next {
+	float:right;
+}
+#challengeModal3 #challengeModal-next>a>p {
+	position:relative;
+	top:-50px;
+	text-align:center;
+	color:#fff;
+}
+#challengeModal3 #challengeModal-skip>a{
+	text-decoration: underline;
+	position: absolute;
+	bottom: -90px;
+	color:#455d78;
+}
+/*challengeModal4-------------------*/
+#challengeModal4 #challengeModal-logo {
+	width: 90%;
+	padding-left: 10%;
+}
+#challengeModal4 #challengeModal-logo>h2 {
+	font-size: 2em;
+	display: inline;
+	color: #455d78;
+	font-family: 'Alike', Georgia, Times New Roman, serif;
+	position:relative;
+	left:11%;
+}
+#challengeModal4 #challengeModal-logo>img {
+	position:relative;
+	top:-30px;
+}
+#challengeModal4 #challengeModal-text {
+	max-width: 90%;
+	padding-left:10%;
+	margin: 3% 0 3% 0;
+}
+#challengeModal4 #challengeModal-text>p {
+	margin: 5% 0 5% 0;
+}
+#challengeModal4 #treatment-option1 {
+	display:inline;
+	float:left;
+	max-width:50%;
+	padding-right:5%;
+	border-right: 1px solid #000;
+}
+#challengeModal4 #treatment-option2 {
+	display:inline;
+	float:right;
+	max-width:50%;
+	padding-left:5%;
+}
+#challengeModal4 #challengeModal-next {
+	float:right;
+}
+#challengeModal4 #challengeModal-next>a>p {
+	position:relative;
+	top:-50px;
+	text-align:center;
+	color:#fff;
+}
+#challengeModal4 #challengeModal-skip>a{
 	text-decoration: underline;
 	position: absolute;
 	bottom: -90px;
