@@ -11,11 +11,15 @@
   <link rel="stylesheet" href="css/foundation.css" />
   <link rel="stylesheet" href="css/cease-main.css" />
   <link rel="stylesheet" href="css/cease-challenge.css" />
+  
  <link href='http://fonts.googleapis.com/css?family=Alike' rel='stylesheet' type='text/css'>
 
   <script src="js/vendor/custom.modernizr.js"></script>
   <script src="js/jquery1.9.1.min.js"></script>
-
+  <script src="js/vendor/jquery.foundation.tabs.js"></script>
+  <script type="text/javascript">
+  $(document).foundationTabs();
+	</script>
 </head>
 <body>
 
@@ -28,59 +32,31 @@
 
 	<div class="row">
 		<div class="large-8 columns">
-			<h3>The Grid</h3>
+	<dl class="tabs">
+  		<dd class="active"><a href="#simple1">Simple Tab 1</a></dd>
+  		<dd><a href="#simple2">Simple Tab 2</a></dd>
+ 		 <dd class="hide-for-small"><a href="#simple3">Simple Tab 3</a></dd>
+	</dl>
+	
+	<ul class="tabs-content">
+  		<li class="active" id="simple1Tab">This is simple tab 1s content. Pretty neat, huh?</li>
+  		<li id="simple2Tab">This is simple tab 2s content. Now you see it!</li>
+  		<li id="simple3Tab">This is simple tab 3s content.</li>
+	</ul>
+			
+			
 
-			<!-- Grid Example -->
+			<!--Grid Example -->
 			<div class="row">
 				<div class="large-12 columns">
                 <a href="#" data-reveal-id="challengeModal">Click Me For A Modal</a>
-					<div class="panel">
-						<p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-					</div>
+				
+					
 				</div>
 			</div>
-			<div class="row">
-				<div class="large-6 columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-				<div class="large-6 columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
+	
 			</div>
 
-		<div class="large-4 columns">
-			<h4>Getting Started</h4>
-			<p>We're stoked you want to try Foundation! To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-
-			<h4>Other Resources</h4>
-			<p>Once you've exhausted the fun in this document, you should check out:</p>
-			<ul class="disc">
-				<li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>
-				<li><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>
-				<li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>
-			</ul>
-		</div>
 	</div>
     
     <div id="challengeModal" class="reveal-modal xlarge">
@@ -128,6 +104,7 @@
   -->
   
   <script>
+  
     $(document).foundation();
   </script>
   <script>
